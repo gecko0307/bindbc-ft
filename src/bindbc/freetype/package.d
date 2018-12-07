@@ -28,9 +28,5 @@ module bindbc.freetype;
 
 public import bindbc.freetype.types;
 
-version(BindBC_Static) version = BindFreetype_Static;
-//version(BindFreetype_Static) public import bindbc.freetype.bindstatic;
-//else public import bindbc.freetype.binddynamic;
-
 public import bindbc.freetype.binddynamic;
 
