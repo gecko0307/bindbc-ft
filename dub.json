@@ -1,0 +1,27 @@
+{
+    "name": "bindbc-ft",
+    "description": "BindBC binding to Freetype",
+    "homepage": "https://github.com/gecko0307/bindbc-ft",
+    "license": "BSL-1.0",
+    "authors": [
+        "Timur Gafarov"
+    ],
+
+    "importPaths": ["src"],
+    "sourcePaths": ["src"],
+
+    "dependencies": {
+        "bindbc-loader": "~>0.1.1"
+    },
+
+    "buildRequirements":[
+        "allowWarnings"
+    ],
+
+    "configurations": [
+        {
+            "name": "library",
+            "targetType": "library"
+        }
+    ],
+}
